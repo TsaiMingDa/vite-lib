@@ -1,0 +1,18 @@
+@import '../utility/color.scss';
+
+.btn {
+  margin: 10px 5px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 15px;
+  line-height: 25px;
+  text-align: center;
+  background-color: $color;
+  color: $white;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    opacity: .9;
+  }
+  box-shadow: 1px 1px 1px #333;
+}
